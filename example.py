@@ -1,12 +1,9 @@
 from Gesys.gesys import GesysStatic
-gs = GesysStatic()
 import cv2
 
-# from Gesys.gesys import GesysStatic
-# import cv2
-
+gs = GesysStatic()
 cap = cv2.VideoCapture(0)
-# gs = GesysStatic()
+
 while True:
     _, frame = cap.read()
     
