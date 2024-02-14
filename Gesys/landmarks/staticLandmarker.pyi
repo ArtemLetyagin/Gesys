@@ -13,6 +13,7 @@
 import mediapipe
 import cv2
 import numpy
+import time
 
 # This is not Python source even if it looks so. Make it clear for
 # now. This was decided by PEP 484 designers.
