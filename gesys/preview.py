@@ -28,10 +28,17 @@ def preview(speed_mode):
             text = GESTURES[gestures[i]]
             put_text(frame, text, (int(x), int(y)))
             cv2.circle(frame, (int(x), int(y)), 5, (0,255,0))
+        # for i, lm in enumerate(lms):
+        #     text = GESTURES[gestures[i]]
+        #     put_text(frame, text, (int(lms[i][0][0]), int(lms[i][0][1])))
+            
+        #     for x,y,z in lm:
+        #         cv2.circle(frame, (int(x), int(y)), 5, (0,255,0))
 
         cv2.imshow('window', frame)
 
         if cv2.waitKey(1) > -1:
             break
     cv2.destroyAllWindows()
+print(1)
 
