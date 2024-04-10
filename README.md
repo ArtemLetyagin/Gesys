@@ -15,4 +15,4 @@ preview(speed_mode=2)
 
 # Available gestures
 
-![](content/available.png)
+![](content/av.png)
