@@ -14,8 +14,13 @@ preview(speed_mode=2)
 ```
 
 # Available gestures
-<foreignObject>
-    <div style='width: 100%; height: 200px; background-color: #252526; display: flex; flex-direction: column; padding:5px; gap: 5px'>
+<div>
+    <style>
+        .diver{
+            background-color: 'black';
+        }
+    </style>
+    <div class='diver' style='width: 100%; height: 200px; display: flex; flex-direction: column; padding:5px; gap: 5px'>
         <div style='display:flex; height:100px; gap: 20px'>
             <div style='background-color:#007acc; height: 100%; border-radius: 50%; overflow:hidden'>
                 <img src="./content/stop_svg.svg">
@@ -29,5 +34,5 @@ preview(speed_mode=2)
             <div style='color: #dddddd; font-size: 30px; height:92.5px; line-height:92.5px'>Two up</div>
         </div>
     </div>
-</foreignObject>
+</div>
 
